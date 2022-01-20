@@ -21,8 +21,8 @@ spec:
       containers:
       - envFrom:
         - secretRef:
-            name: db-deployment
+            name: db-secret
         name: db-deployment
-        image: harbor.dev.afsmtddso.com/ootoya-harbor-project/db@sha256:28991d9ddfc47f18785f31e8372275d81635de8e130c71c95f407690ba8ffb225432
+        image: harbor.dev.afsmtddso.com/ootoya-harbor-project/db@sha256:28991d9ddfc47f18785f31e8372275d81635de8e130c71c95f407690ba8ffb22
         ports:
         - containerPort: 5432
