@@ -5,6 +5,8 @@
 -- Dumped from database version 9.5.4
 -- Dumped by pg_dump version 9.5.4
 
+-- Adding a comment per lab 6 instruction 11 under section make build improvement. 
+
 SET statement_timeout = 0;
 SET lock_timeout = 0;
 SET client_encoding = 'UTF8';
