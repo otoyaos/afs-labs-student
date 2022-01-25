@@ -22,6 +22,8 @@ spec:
       - envFrom:
         - secretRef:
             name: db-secret
+        - configMapRef:
+            name: feature-toggle
         name: app-deployment
         image: harbor.dev.afsmtddso.com/ootoya-harbor-project/app@sha256:4111dd2a4745cdf0fc79c9e26049c4f7fc8c1126083ed717bb05a10af4087106
         ports:
